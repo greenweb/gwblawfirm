@@ -221,7 +221,7 @@ class Nice_Calculator {
               <li>
                 <label for="year">Year:</label>
                 <select id="NCyear">
-                  <option value="2019">2019</option>
+
                   <option value="2018">2018</option>
                   <option value="2017">2017</option>
                   <option value="2016">2016</option>
@@ -311,7 +311,6 @@ class Nice_Calculator {
               <li>
                 <label for="year">Year:</label>
                 <select id="year">
-                  <option value="2019">2019</option>
                   <option value="2018">2018</option>
                   <option value="2017">2017</option>
                   <option value="2016">2016</option>
@@ -622,10 +621,10 @@ class Nice_Calculator {
             <ol>
               <li class="hiddenLabel" id="bodypartLabel"></li>
               <li>
-                <label for="compRate">Compensation Rate:</label> <input type="text" name="compRate" id="compRate">
+                <label for="compRate">Compensation Rate ($):</label> <input type="text" name="compRate" id="compRate">
               </li>
               <li>
-                <label for="rating">Impairment Rating:</label> <input type="text" name="rating" id="rating">
+                <label for="rating">Impairment Rating (%):</label> <input type="text" name="rating" id="rating">
               </li>
               <li>
                 <label id="ppdLabel">PPD ($): </label>
@@ -704,10 +703,10 @@ class Nice_Calculator {
             <ol>
               <li class="hiddenLabel" id="bodypartLabel"></li>
               <li>
-                <label for="compRate">Compensation Rate:</label> <input type="text" name="compRate" id="compRate">
+                <label for="compRate">Compensation Rate ($):</label> <input type="text" name="compRate" id="compRate">
               </li>
               <li>
-                <label for="rating">Impairment Rating:</label> <input type="text" name="rating" id="rating">
+                <label for="rating">Impairment Rating (%):</label> <input type="text" name="rating" id="rating">
               </li>
               <li>
                 <label id="ppdLabel">PPD ($): </label>
