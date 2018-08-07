@@ -1225,7 +1225,7 @@ jQuery(document).ready(function($){
          required: true,
          number: true,
          min: 2003,
-         max: 2011
+         max: 2018
        }
      }
   });
@@ -1297,6 +1297,18 @@ jQuery(document).ready(function($){
         case 2015:
           if(aww > 1149.02)
             compRate = 766.05;
+          break;
+        case 2016:
+          if(aww > 1149.01)
+            compRate = 784.03;
+          break;
+        case 2017:
+          if(aww > 1149.01)
+            compRate = 806.82;
+          break;
+        case 2018:
+          if(aww > 1149.01)
+            compRate = 838.21;
           break;
       }
 
