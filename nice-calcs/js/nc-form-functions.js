@@ -1307,7 +1307,7 @@ jQuery(document).ready(function($){
             compRate = 806.82;
           break;
         case 2018:
-          if(aww > 1149.01)
+          if(aww > 1257.25)
             compRate = 838.21;
           break;
       }
